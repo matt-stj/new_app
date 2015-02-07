@@ -1,2 +1,77 @@
-<h1>Landings#index</h1>
-<p>Find me in app/views/landings/index.html.erb</p>
+<!-- Slider -->
+<div class="header-banner"> 
+  <script src="js/responsiveslides.min.js"></script> 
+  <script>
+			 $(function () {
+			  $("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			  });
+			 });
+			 </script>
+<div class="jumbotron">
+<div class="center">
+    <div class="opaque wrapper">
+      <h1>WE SEND COOL SHIT TO<br>PEOPLE YOU LIKE</h1>
+      <h3>Kindness as a Service: want to make someone you like happy for only $9.99?<br>Let us send them some some cool shit that will brighten their day.
+      </div>
+      <div class="center">
+      <a href="#buy"><input type="button" value="Buy Now" class="btn btn-default btn-lg", id="Login"></a>
+  </div>
+</div>
+</div>
+
+<div class="divider center">
+  <h1>This is a divider.</h1>
+</div>
+
+<div class="container clmns">
+  
+    <hr>
+  
+    <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default home">
+            <div class="panel-heading"><h3>Hello.</h3><div class="panel-image"> <img src="/images/phone.png" alt="phone" /></div></div>
+            <div class="panel-body", id="centerpanels">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+            </div>
+
+          </div>
+        </div>
+            <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default home">
+            <div class="panel-heading"><h3>Hello.</h3><div class="panel-image"> <img src="/images/pig.png" alt="pig" /></div></div>
+            <div class="panel-body", id="centerpanels">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+            Aliquam in felis sit amet augue.
+            </div>
+
+          </div>
+        </div>
+            <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default home">
+            <div class="panel-heading"><h3>Hello.</h3><div class="panel-image"> <%= link_to(image_tag("/assets/plane.png", :alt => "logo", :title => "Home", :class=>"responsive"), "/") %></div></div>
+            <div class="panel-body", id="centerpanels">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+            Aliquam in felis sit amet augue.
+            </div>
+
+          </div>
+        </div>
+        </div>
+
+<a name="buy"></a> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

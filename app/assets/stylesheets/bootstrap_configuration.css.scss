@@ -3,3 +3,21 @@
 $brand-primary: #428bca;
 $body-bg: #efefee;
 $text-color: #333332;
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+$body-bg: white;
+
+$navbar-default-bg: rgba(36, 135, 202, 0.85);
+$navbar-default-link-color: white;
+$navbar-default-toggle-hover-bg: white;
+$navbar-default-toggle-icon-bar-bg: rgba(36, 135, 202, 0.85);
+$navbar-default-link-hover-color: #ecf0f1;
+
+$btn-lg-color: #d35400;
+
+$font-family-sans-serif: "Ubuntu" "Raleway", Helvetica, Arial, sans-serif;
+
+@import "bootstrap";
