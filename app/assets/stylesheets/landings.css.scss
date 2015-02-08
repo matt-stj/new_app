@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    font-family: ubuntu;
+    font-size: 1.8rem;
+}
+
+
 // center
 
 .center {
@@ -21,6 +28,17 @@ margin-top:-15em;
 background-position:center;
 
 }
+
+#jumbotron-2 {
+background-image: image-url('background2.jpg');	
+	padding-bottom: 4em !important;
+	padding-top: 14em !important;
+	background-repeat:no-repeat;
+background-position:center;
+margin-top: 0.1em;
+
+}
+
 
 //Buttons ------------------------------------
 
@@ -151,10 +169,22 @@ box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75), 0px -3px 4px rgba(19, 114, 9, 
 #divider-2 {
 	
 	background-color: rgba(103, 198, 93, .65);
-padding: 1em;
+padding: .5em;
 color: white;
 background: url(image_path('shatter-yellow.png')) no-repeat scroll 0px 100% / cover transparent;
-border-radius: 5px;
+border-radius: 15px 15px 1px 1px;
+
+}
+
+#divider-3 {
+	
+	margin-top: 3em;
+	background-color: rgba(103, 198, 93, .65);
+padding: 2em;
+color: white;
+background: url(image_path('shatter.png')) no-repeat scroll 0px 100% / cover transparent;
+box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75);
+
 
 }
 
@@ -171,7 +201,7 @@ border-radius: 5px;
       color: white !important;
       background: transparent\9;
 background:rgba(0,0,0,0.4);
-border-radius: 15px;
+border-radius: 5px;
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
 box-shadow: 0px 25px 23px rgba(0,0,0,0.4), 0px -25px 23px rgba(0,0,0,0.4);
 
@@ -277,6 +307,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
 
 #centerpanels {
 	text-align: center !important;
+	font-family: Ubuntu;
+	font-size: 1.2em;
 }
 
 .panel {
@@ -290,7 +322,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
 
 
 #left {
-	background-color: #67C65D !important;
+	background-color: #C24158 !important;
 	}
 
 #middle {
@@ -333,6 +365,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+    font-family: Ubuntu;	
 }
  
 .accordion {
@@ -340,6 +373,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
     box-shadow:0px 1px 3px rgba(0,0,0,0.25);
     border-radius:3px;
     background:#f7f7f7;
+
+    .a {
+    text-decoration: none !important;
+    color: white !important;
+    }
 }
  	
 /*----- Section Titles -----*/
@@ -351,9 +389,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endCol
     background:#4F789C;
     transition:all linear 0.15s;
     /* Type */
-    font-size:1.200em;
+    font-size:1.3em;
     text-shadow:0px 1px 0px #1a1a1a;
     color:#fff;
+
 
 }
  
