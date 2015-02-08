@@ -8,6 +8,9 @@
     font-size: 1.8rem;
 }
 
+.float-right {
+	float: right !important;
+}
 
 // center
 
@@ -46,27 +49,45 @@ box-shadow: 0px 10px 9px grey;
 	float: right !important;
 }
 
+.col-md-6 {
+		img {
+		display: block;
+max-width: 100%;
+height: auto;
+		}
+}
+
+.inline {
+	display: inline-block !important;
+}
+
+.form-group {
+	display: block;
+max-width: 100%;
+height: auto;
+}
+
 .reviews {
 
-.col-md-3 {
-	font-family: Shadows Into Light !important;
-	font-size: 2em;
-	padding-right: 0px !important;
-	position: none !important;
-}
+	.col-md-3 {
+		font-family: Shadows Into Light !important;
+		font-size: 2em;
+		padding-right: 0px !important;
+		position: none !important;
+	}
 
-.col-md-4 {
-	font-family: Shadows Into Light !important;
-	font-size: 2em;
-	padding-right: 0px !important;
-	position: none !important;
-	margin-left: -2rem;
-}
-.name {
-	font-size: .6em !important;
-}
+	.col-md-4 {
+		font-family: Shadows Into Light !important;
+		font-size: 2em;
+		padding-right: 0px !important;
+		position: none !important;
+		margin-left: -2rem;
+	}
+	.name {
+		font-size: .6em !important;
+	}
 
-}
+	}
 
 
 //Buttons ------------------------------------
@@ -214,7 +235,20 @@ border-radius: 15px 15px 1px 1px;
 	
 	margin-top: 3em;
 	background-color: rgba(103, 198, 93, .65);
-padding: 2em;
+padding: 1.25em;
+color: white;
+background: url(image_path('shatter.png')) no-repeat scroll 0px 100% / cover transparent;
+box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75);
+
+
+}
+
+#divider-3 {
+	
+	margin-top: 3em;
+	margin-bottom: 2em;
+	background-color: rgba(103, 198, 93, .65);
+padding: 1.25em;
 color: white;
 background: url(image_path('shatter.png')) no-repeat scroll 0px 100% / cover transparent;
 box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75);
