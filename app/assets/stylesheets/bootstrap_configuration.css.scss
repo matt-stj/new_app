@@ -4,9 +4,9 @@ $brand-primary: #428bca;
 $body-bg: #efefee;
 $text-color: #333332;
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 $body-bg: white;
 
@@ -18,6 +18,6 @@ $navbar-default-link-hover-color: #ecf0f1;
 
 $btn-lg-color: #d35400;
 
-$font-family-sans-serif: "Ubuntu" "Raleway", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Ubuntu" "Raleway", Helvetica, Arial, sans-serif, Shadows Into Light;
 
 @import "bootstrap";
