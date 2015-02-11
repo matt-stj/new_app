@@ -36,8 +36,8 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   config.serve_static_assets = true
 
-  #->Prelang
-  GA.tracker = ""
+config.assets.compile = true
+config.assets.precompile << '*.js'
 
 end
 
