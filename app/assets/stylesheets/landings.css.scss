@@ -23,7 +23,7 @@
 }
 
 .jumbotron {
-background-image: image-url('/images/background.jpg');
+background-image: image-url('background.jpg');
 margin-top:-15em;
 	padding-bottom: 4em !important;
 	padding-top: 14em !important;
@@ -48,6 +48,28 @@ box-shadow: 0px 10px 9px grey;
 .left {
 	align: left;
 	float: right !important;
+}
+
+.col-center-master {
+	text-align: center !important;
+	float: left !important;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:left;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:margin-left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.middle {
+	vertical-align: middle;
 }
 
 .col-md-6 {
@@ -256,8 +278,6 @@ box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75);
 
 
 }
-
-
 
 .opaque {	
 		line-height: 10rem !important;
