@@ -22,16 +22,6 @@
 	padding-bottom: 25px;
 }
 
-.jumbotron {
-background-image: image-url('background.jpg');
-margin-top:-15em;
-	padding-bottom: 4em !important;
-	padding-top: 14em !important;
-	background-repeat:no-repeat;
-background-position:center;
-
-}
-
 #jumbotron-2 {
 background-image: image-url('background2.jpg');
 
@@ -115,9 +105,8 @@ height: auto;
 
 //Buttons ------------------------------------
 
-.brn-primary {
-	margin: 0.1em;
-	background-color: green;
+.btn-primary {
+	margin-top: 1em !important;
 }
 
 #buy-now {
@@ -239,7 +228,7 @@ html,body {
 padding: 2em;
 margin-top: -2em;
 color: white;
-background-image: url(image_path('shatter.png')) no-repeat scroll 0px 100% / cover transparent;
+background-image: image-url('shatter.png');
 box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75), 0px -3px 4px rgba(19, 114, 9, .75);
 
 }
@@ -249,7 +238,7 @@ box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75), 0px -3px 4px rgba(19, 114, 9, 
 	background-color: rgba(103, 198, 93, .65);
 padding: .5em;
 color: white;
-background-image: url(image_path('shatter-yellow.png')) no-repeat scroll 0px 100% / cover transparent;
+background-image: image-url('shatter-yellow.png');
 border-radius: 15px 15px 1px 1px;
 
 }
@@ -279,6 +268,16 @@ box-shadow: 0px 12px 12px rgba(87, 87, 87, 0.75);
 
 }
 
+.jumbotron {
+background-image: image-url('background.jpg');
+margin-top:-15em;
+	padding-bottom: 4em !important;
+	padding-top: 14em !important;
+	background-repeat:no-repeat;
+background-position:center;
+
+
+
 .opaque {	
 		line-height: 10rem !important;
 		margin-top: 10em;
@@ -306,6 +305,7 @@ font-family: Ubuntu;
 color: white !important;
 text-shadow: -1px 0 black, 0 1px black,
       1px 0 black, 0 -1px black;	
+line-height: 4rem;
 }
 }
 
@@ -353,6 +353,7 @@ text-shadow: -1px 0 black, 0 1px black,
             background-color: rgba(51, 95, 134, 0.8)
         }
     }
+}
 
 #edjumbo {
         font-size: 2em;
