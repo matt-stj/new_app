@@ -9,5 +9,5 @@ Rails.application.config.assets.version = '1.0'
 
   # config/application.rb
 Rails.application.config.assets.precompile += [
-      'app/assets/*'
+      'assets/*'
     ]
