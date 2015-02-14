@@ -8,7 +8,10 @@ $text-color: #333332;
 
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
-$body-bg: white;
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+$body-bg: #F9F9F9;
 
 $navbar-default-bg: rgba(51, 95, 134, 0.95);
 $navbar-default-link-color: white;
@@ -21,3 +24,82 @@ $btn-lg-color: #d35400;
 $font-family-sans-serif: "Ubuntu" "Raleway", Helvetica, Arial, sans-serif, Shadows Into Light;
 
 @import "bootstrap";
+
+$background: #F5F5F5;
+body{background: $background;}
+img{max-width:100%; vertical-align: middle;}
+
+.side{
+  width: 70rem;
+  margin: 2em auto;
+}
+.profile-callout{
+  position: relative;
+  overflow: hidden;
+  img{
+    z-index: -1;
+    position: relative;
+  }
+  .text{
+    position: absolute;
+    top: 60%;
+    left: 1em;
+    transition: top 200ms ease;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    h1{
+      margin: 0 0 0.75em;
+      font-weight: 100;
+      font-family: ubuntu, sans-serif;
+    }
+    span{
+      display: block;
+      margin: 0 0 0.25em;
+      font-weight: 300;
+      &.green{
+        color: white;
+        font-style: italic;
+        margin: 0;
+        font-size: 2rem;
+      }
+      &.below-fold{
+        padding-top: 1.5em;
+      }
+    }
+  }
+  &:hover .text{
+     top: 20%;
+  }
+  &:hover:before{
+    border: solid 0px white;
+  }
+  &:hover .overlay{
+    background-color: rgba(#002f4b, 0.85)
+  }
+  &:before{
+    content			: "";
+    position		: absolute;
+    top				: 0;
+    left			: 0;
+    background		: #B0C74C; //color of dog ear
+    border			: solid 20px; //size of dog ear
+    border-color	:$background transparent transparent $background; //direction of dog ear
+    border-radius	: 0;
+    box-shadow		: -2px 2px 1px rgba(0, 0, 0, .1);
+    transition: border 200ms ease;
+  }
+
+}
+
+
+.overlay {
+  display: table;
+  width: 100%;
+  background-color: rgba(#002f4b, 0.5);
+  transition: background-color 200ms ease;
+  background-position: center top;
+  height: 100%;
+  z-index: 2;
+}
+
+
